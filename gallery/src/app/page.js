@@ -16,138 +16,189 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className={styles.center}>
-        .
-      </div> */}
-
       <div className={styles.grid}>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://binchoi.github.io"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image 
               priority
-              src="/artex.jpg"
+              src="/images/20230722.jpeg"
               height={240}
               width={240}
               alt=""
           />
         </a>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://binchoi.github.io"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image 
               priority
-              src="/artex.jpg"
+              src="/images/atom.jpeg"
               height={240}
               width={240}
               alt=""
           />
         </a>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://binchoi.github.io"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image 
               priority
-              src="/artex.jpg"
+              src="/images/20230719.jpeg"
               height={240}
               width={240}
               alt=""
           />
         </a>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://binchoi.github.io"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image 
               priority
-              src="/artex2.jpg"
+              src="/images/once-a-day.jpeg"
               height={240}
               width={240}
               alt=""
           />
         </a>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://binchoi.github.io"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image 
               priority
-              src="/artex.jpg"
+              src="/images/circles.jpeg"
               height={240}
               width={240}
               alt=""
           />
         </a>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://binchoi.github.io"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image 
               priority
-              src="/artex.jpg"
+              src="/images/20221111.jpeg"
               height={240}
               width={240}
               alt=""
           />
         </a>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://binchoi.github.io"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image 
               priority
-              src="/artex3.jpg"
+              src="/images/wall.jpeg"
               height={240}
               width={240}
               alt=""
           />
         </a>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://binchoi.github.io"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image 
               priority
-              src="/artex.jpg"
+              src="/images/chips.jpeg"
               height={240}
               width={240}
               alt=""
           />
         </a>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://binchoi.github.io"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image 
               priority
-              src="/artex.jpg"
+              src="/images/20221016.jpeg"
               height={240}
               width={240}
               alt=""
           />
         </a>
-
+        <a
+          href="https://binchoi.github.io"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image 
+              priority
+              src="/images/candle.jpeg"
+              height={240}
+              width={240}
+              alt=""
+          />
+        </a>
+        <a
+          href="https://binchoi.github.io"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image 
+              priority
+              src="/images/20230113.jpeg"
+              height={240}
+              width={240}
+              alt=""
+          />
+        </a>
+        <a
+          href="https://binchoi.github.io"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image 
+              priority
+              src="/images/face.jpeg"
+              height={240}
+              width={240}
+              alt=""
+          />
+        </a>
+        <a
+          href="https://binchoi.github.io"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image 
+              priority
+              src="/images/20221026.jpeg"
+              height={240}
+              width={240}
+              alt=""
+          />
+        </a>
       </div>
     </main>
   )

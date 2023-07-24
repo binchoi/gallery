@@ -17,7 +17,7 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
-        <a
+        {/* <a
           href="https://binchoi.github.io"
           className={styles.card}
           target="_blank"
@@ -30,7 +30,7 @@ export default function Home() {
               width={240}
               alt=""
           />
-        </a>
+        </a> */}
         <a
           href="https://binchoi.github.io"
           className={styles.card}

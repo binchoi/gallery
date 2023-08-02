@@ -37,3 +37,15 @@ export function getDescendingPiecesData() {
     const duplicatedList = mylist.flatMap((element) => Array(12).fill(element));
     return duplicatedList;
 }
+
+export function getAllPieceIds() {
+    const fileNames = fs.readdirSync(piecesDirectory);
+
+    return fileNames.map((fileName) => {
+        return {
+            params: {
+                id: fileName.replace(/\.md$/, ""),
+            },
+        };
+    });
+}

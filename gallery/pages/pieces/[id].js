@@ -27,9 +27,13 @@ export default function Piece({ pieceData }) {
                         <Image
                             priority
                             src={pieceData.imagepath}
-                            height={480}
-                            width={480}
                             alt=""
+                            height={720}
+                            width={720}
+                            style={{
+                                width: "100%",
+                                height: "auto",
+                            }}
                         />
                     </div>
                     <div

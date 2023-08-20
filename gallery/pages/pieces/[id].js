@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getAllPieceIds, getPieceData } from "../../lib/pieces";
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/Pieces.module.css";
+import Date from "../../components/date";
 
 export default function Piece({ pieceData }) {
     return (
@@ -17,18 +18,20 @@ export default function Piece({ pieceData }) {
                 </div>
             </div>
             <div>
-                <article>
+                <article className={styles.piecedescription}>
                     <h1>{pieceData.title}</h1>
-                    <div>
+                    <h4>
                         <Date dateString={pieceData.date} />
+                    </h4>
+                    <div>
+                        <Image
+                            priority
+                            src={pieceData.imagepath}
+                            height={480}
+                            width={480}
+                            alt=""
+                        />
                     </div>
-                    <Image
-                        priority
-                        src={pieceData.imagepath}
-                        height={480}
-                        width={480}
-                        alt=""
-                    />
                     <div
                         dangerouslySetInnerHTML={{
                             __html: pieceData.contentHtml,

@@ -23,8 +23,6 @@ export function getDescendingPiecesData() {
     });
 
     return allPiecesData.sort((a, b) => {
-        // order by numeric descending of id field
-
         if (a.id < b.id) {
             return 1;
         } else {

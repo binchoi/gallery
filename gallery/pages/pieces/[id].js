@@ -17,8 +17,8 @@ export default function Piece({ pieceData }) {
                     </a>
                 </div>
             </div>
-            <div>
-                <article className={styles.piecedescription}>
+            <div className={styles.piecedescription}>
+                <article>
                     <h1>{pieceData.title}</h1>
                     <h4>
                         <Date dateString={pieceData.date} />

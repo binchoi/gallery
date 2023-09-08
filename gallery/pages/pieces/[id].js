@@ -18,30 +18,25 @@ export default function Piece({ pieceData }) {
                 </div>
             </div>
             <div className={styles.piecedescription}>
-                <article>
-                    <h1>{pieceData.title}</h1>
-                    <h4>
-                        <Date dateString={pieceData.date} />
-                    </h4>
-                    <div>
-                        <Image
-                            priority
-                            src={pieceData.imagepath}
-                            alt=""
-                            height={720}
-                            width={720}
-                            style={{
-                                width: "100%",
-                                height: "auto",
-                            }}
-                        />
-                    </div>
-                    <div
-                        dangerouslySetInnerHTML={{
-                            __html: pieceData.contentHtml,
-                        }}
+                <h1>{pieceData.title}</h1>
+                <h4>
+                    <Date dateString={pieceData.date} />
+                </h4>
+                <div>
+                    <Image
+                        priority
+                        src={pieceData.imagepath}
+                        alt="art piece"
+                        height={720}
+                        width={720}
+                        style={{ width: "100%", height: "auto" }}
                     />
-                </article>
+                </div>
+                <div
+                    dangerouslySetInnerHTML={{
+                        __html: pieceData.contentHtml,
+                    }}
+                />
             </div>
         </main>
     );
